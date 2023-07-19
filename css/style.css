@@ -72,7 +72,6 @@ header .list-header li {
   margin: 5px;
 }
 
-
 /* MAIN */
 
 main .container {
@@ -87,6 +86,7 @@ main .card {
   width: 420px;
   display: inline-block;
   margin: 0px 7px 45px 7px;
+  cursor: pointer;
 }
 
 main .card .top img {
@@ -101,6 +101,24 @@ main p {
 main .top {
   position: relative;
 }
+
+main .top .img-hover {
+  display: none;
+}
+
+
+/* HOVER CARD */
+
+
+main .top:hover .image-prod {
+  display: none;
+}
+
+main .top:hover .img-hover {
+  display: block;
+}
+
+
 
 main .banner {
   position: absolute;
