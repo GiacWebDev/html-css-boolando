@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.c-debug {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+header {
+  height: 70px;
+  background-color: #FC6900;
+}
+
+header .header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+header .menu-header li {
+  display: inline;
+  align-items: center;
+}
