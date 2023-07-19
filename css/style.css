@@ -43,7 +43,7 @@ header .header-box {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1400px;
   width: 90%;
 }
 
@@ -63,27 +63,30 @@ header .logo-header {
   justify-content: center;
 }
 
-header .logo-header img{
+header .logo-header img {
   width: 150px;
 }
 
-header .list-header li{
+header .list-header li {
   display: inline;
+  margin: 5px;
 }
 
 
 /* MAIN */
 
 main .container {
-  max-width: 1300px;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
   margin-top: 120px;
+  justify-content: center;
 }
 
 main .card {
   width: 420px;
-  display: inline-block
+  display: inline-block;
+  margin: 0px 7px 45px 7px;
 }
 
 main .card .top img {
