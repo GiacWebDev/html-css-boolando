@@ -4,14 +4,28 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .c-debug {
   background-color: aqua;
   border: 1px solid black;
 }
 
+.centered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* HEADER  */
+
 header {
   height: 70px;
   background-color: #FC6900;
+  display: flex;
 }
 
 header .header-box {
@@ -19,11 +33,29 @@ header .header-box {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
+}
+
+header .menu-header li a{
+text-decoration: none;
+color: white;
+font-weight: 600;
 }
 
 header .menu-header li {
   display: inline;
-  align-items: center;
+}
+
+header .logo-header {
+  width: 200px;
+  justify-content: center;
+}
+
+header .logo-header img{
+  width: 150px;
+}
+
+header .list-header li{
+  display: inline;
 }
